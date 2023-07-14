@@ -1,0 +1,136 @@
+#root {
+   width: 100%;
+}
+
+ul.side-links {
+   list-style-type: none;
+   padding-left: 0px;
+}
+ul {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   font-size: 12pt;
+   color: #C0C0C0;
+   padding-left: 20px;
+}
+@media (min-width:500px) {
+   ul {
+      padding-left:80px;
+   }
+}
+body {
+   background-color: #000000;
+   color: #ffffff;
+}
+.monster {
+   padding-left:20px;
+}
+.logo-area {
+   padding-bottom:40px;
+}
+@media (min-width:500px) {
+   .logo-area {
+      padding-left:40px;
+   }
+}
+.footer {
+   margin-top:40px;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 10px;
+   border-top: 5px solid #008CAD;
+}
+.header-section {
+   padding-left: 10px;
+   padding-right: 50px;
+   padding-top: 50px;
+}
+@media (min-width:500px) {
+   .header-section {
+      padding-left:50px;
+   }
+}
+.main-body {
+   padding-left: 10px;
+   padding-right: 10px;
+}
+@media (min-width:500px) {
+   .main-body {
+      padding-left: 50px;
+      padding-right: 50px;
+   }
+}
+.copy {
+   padding-top: 20px;
+   text-align: right;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 10pt;
+   font-weight: 400;
+   color: #FFFFFF;
+}
+.date-bar {
+   padding:5px;
+   text-align: right;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 10pt;
+   font-weight: 700;
+   color: #FFFFFF;
+   background-color: #330066;
+}
+h3 {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+   font-size: 16pt;
+   color: #008CAD;
+}
+h4 {
+   font-family: 'Open Sans', sans-serif;
+   padding-top: 20px;
+   font-weight: 700;
+   font-size: 10pt;
+   color: #008CAD;
+}
+h2 {
+   font-family: 'Open Sans', sans-serif;
+   padding-top: 20px;
+   font-weight: 700;
+   font-size: 16pt;
+}
+p {
+   padding-top: 20px;
+   margin-bottom: 0px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   font-size: 12pt;
+   color: #C0C0C0;
+}
+@media (min-width:500px) {
+   p {
+      padding-left:60px;
+   }
+}
+a {
+   text-decoration: none;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   font-size: 12pt;
+   color: #ffffff;
+}
+a:visited {
+   text-decoration: none;
+   color: #ffffff;
+}
+a:hover {
+   color: #ffffff;
+}
+.argh-head {
+   padding-bottom: 20px;
+}
+.linkydinky {
+   text-align:right;
+}
+.cherries {
+   padding-top: 10px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+}
