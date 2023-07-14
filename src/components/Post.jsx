@@ -10,7 +10,7 @@ function Post(props) {
          </div>
          <div className="row">
             <div className="col-12">
-               <img src="cherries.jpg" alt="cherries" className="float-end cherries" />
+               <img src="img/cherries.jpg" alt="cherries" className="float-end cherries" />
             </div>
          </div>
       </>

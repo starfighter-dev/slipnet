@@ -74,7 +74,7 @@ function getPosts() {
         <>
           <p>It's the simple things, eh?</p>
           <p>
-            <img className="img-fluid" src="sfirc.png" alt="irc" />
+            <img className="img-fluid" src="img/sfirc.png" alt="irc" />
           </p>
         </>
     },
@@ -85,7 +85,7 @@ function getPosts() {
       body:
         <>
           <p>I pulled an old slipnet design, circa 2001-05 from the way back machine and modernised it a bit.. why not, eh? <a href="https://web.archive.org/web/20050829163957/http://www.slipnet.org.uk/" target="_blank">Here it is</a>, if you're so inclined.</p>
-          <p><img className="img-fluid" src="mr.gif" alt="mr robot" /></p>
+          <p><img className="img-fluid" src="img/mr.gif" alt="mr robot" /></p>
         </>
     },
     {
