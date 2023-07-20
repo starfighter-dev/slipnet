@@ -23,11 +23,15 @@ function App() {
           ))}
         </div>
         <div className="col-2 d-none d-lg-block linkydinky">
-          <h3>..external..</h3>
+          <h3>..stuff..</h3>
           <ul className="side-links">
             <li><a target="_blank" href="https://www.starfighter.dev/">My work</a></li>
-            <li><a target="_blank" href="https://www.twitter.com/d33bx">Twitting</a></li>
             <li><a target="_blank" href="https://github.com/starfighter-dev">GitHub</a></li>
+            <li><a target="_blank" href="/mje-pubkey.txt">PGP Key</a></li>
+          </ul>
+          <h3>..social..</h3>
+          <ul className="side-links">
+            <li><a target="_blank" href="https://www.twitter.com/d33bx">Twitting</a></li>
           </ul>
         </div>
       </div>
