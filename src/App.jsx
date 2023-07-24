@@ -47,6 +47,17 @@ function App() {
 function getPosts() {
   return [
     {
+      title: 'Been a while',
+      who: 'slippy',
+      date: '24 Jul 2023',
+      body:
+         <>
+         <p>I think it's fair to say, a lot has happened since I posted here previously. Life - what a thing. In any case, something very important has happened:</p>
+         <p><a href="https://tosche.net/fonts/comic-code" target="_blank">Comic Code Font</a></p>
+         <p>I wish you well, Internet.</p>
+         </>
+    },
+    {
       title: 'Incoming',
       who: 'slippy',
       date: '17 Feb 2021',
