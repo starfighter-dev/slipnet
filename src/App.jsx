@@ -31,7 +31,7 @@ function App() {
           </ul>
           <h3>..social..</h3>
           <ul className="side-links">
-            <li><a target="_blank" href="https://www.twitter.com/d33bx">Twitting</a></li>
+            <li><a target="_blank" href="https://bsky.app/profile/warfruit.bsky.social">Bluesky</a></li>
           </ul>
         </div>
       </div>
@@ -40,9 +40,6 @@ function App() {
     </>
   )
 }
-
-//<h3 className="mb-4">..twitter..</h3>
-//<a className="twitter-timeline" data-tweet-limit="5" data-theme="dark" href="https://twitter.com/d33bx?ref_src=twsrc%5Etfw">Tweets by d33bx</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 function getPosts() {
   return [
@@ -114,7 +111,6 @@ function getPosts() {
           <ul>
             <li><a href="https://www.starfighter.dev/">My work</a> - Need some software? I'm like the A-Team, but there's one of me, and I can't weld.</li>
             <li><a href="https://github.com/starfighter-dev">GitHub</a> - I'm trying to put some simple stuff out on GitHub, which people might find useful. Perhaps.</li>
-            <li><a href="https://www.twitter.com/d33bx">My twitter thing</a></li>
             <li>Steal my identity via <a href="https://www.facebook.com/slippy">Facebook</a> (PS Please don't)</li>
             <li>I'm slippy_v on PSN</li>
             <li>My switch friend code is SW-3987-9617-8666</li>
