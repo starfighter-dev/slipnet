@@ -31,7 +31,7 @@ function App() {
           </ul>
           <h3>..social..</h3>
           <ul className="side-links">
-            <li><a target="_blank" href="https://bsky.app/profile/warfruit.bsky.social">Bluesky</a></li>
+            <li><a target="_blank" href="https://bsky.app/profile/slipnet.org.uk">Bluesky</a></li>
           </ul>
         </div>
       </div>
