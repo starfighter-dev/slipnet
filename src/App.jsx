@@ -50,7 +50,7 @@ function getPosts() {
       body:
         <>
           <p>
-            <img className="img-fluid" src="img/truth.png" alt="Never pay more than 20 bucks for a video game..." />
+            <img className="img-fluid" src="img/truth.jpg" alt="Never pay more than 20 bucks for a video game..." />
           </p>
         </>
     },
