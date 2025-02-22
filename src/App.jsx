@@ -44,6 +44,17 @@ function App() {
 function getPosts() {
   return [
     {
+      title: 'Truth',
+      who: 'slippy',
+      date: '22 Feb 2025',
+      body:
+        <>
+          <p>
+            <img className="img-fluid" src="img/truth.png" alt="Never pay more than 20 bucks for a video game..." />
+          </p>
+        </>
+    },
+    {
       title: 'Been a while',
       who: 'slippy',
       date: '24 Jul 2023',
