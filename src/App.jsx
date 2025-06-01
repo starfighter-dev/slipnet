@@ -2,6 +2,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Post from './components/Post'
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bsky-embed/dist/bsky-embed.es.js";
 import './slipnet.css'
 
 function App() {
@@ -11,7 +12,25 @@ function App() {
       <Header />
 
       <div className="row main-body">
+
         <div className="col-12 col-lg-10">
+         <div className="row">
+            <div className="date-bar">Latest from BlueSky</div>
+            <bsky-embed
+               username="slipnet.org.uk"
+               feed=""
+               search=""
+               mode="dark"
+               limit="3"
+               link-target="_blank"
+               link-image="true"
+               load-more="true"
+               disable-styles="false"
+               custom-styles=".border-slate-300 { border-color: red; }"
+               date-format='{"type":"absolute","locale":"en-GB","options":{"weekday":"long","year":"numeric","month":"long","day":"numeric"}}'
+            >
+            </bsky-embed>
+         </div>
           {posts.map((post, i) => (
             <Post
               key={i}
@@ -33,6 +52,7 @@ function App() {
           <ul className="side-links">
             <li><a target="_blank" href="https://bsky.app/profile/slipnet.org.uk">Bluesky</a></li>
           </ul>
+
         </div>
       </div>
 
